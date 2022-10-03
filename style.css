@@ -59,47 +59,6 @@ nav {
 			
 	}
 
-/* aside bar begynner*/
-
-aside ul {
-	
-	list-style-type:none;
-	
-}
-
-aside li {
-	
-	margin:30px;
-		
-}
-
-
- div _section {
-	
-	background-color:white;
-	max-width:500px;
-	margin:auto;
-	top : -100px;
-	
-	
-}
-
-/* Sidebar */
-
-.fa-solid {
-	
-	color: black;
-	
-}
-
-.lister:link, .lister:visited, .listerhover, .lister:active {
-	text-decoration: none; 
-	color: rgb(46, 31, 9); 
-	font-size: 20px; 
-	margin-top: 10px; 
-	
-}
-	
 	
 /* To kolonner som flyter ved siden av hverandre */ 
 
@@ -143,6 +102,47 @@ aside li {
 	}
 }
 
+/* aside bar begynner*/
+
+aside ul {
+	
+	list-style-type:none;
+	
+}
+
+aside li {
+	
+	margin:30px;
+		
+}
+
+
+ div _section {
+	
+	background-color:white;
+	max-width:500px;
+	margin:auto;
+	top : -100px;
+	
+	
+}
+
+/* Sidebar */
+
+.fa-solid {
+	
+	color: black;
+	
+}
+
+.lister:link, .lister:visited, .listerhover, .lister:active {
+	text-decoration: none; 
+	color: rgb(46, 31, 9); 
+	font-size: 20px; 
+	margin-top: 10px; 
+	
+}
+	
 
 /* Tittel <<Vår meny >> */ 
 
