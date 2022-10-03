@@ -123,7 +123,7 @@ aside li{
 
 /* Responsive layout */ 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
 	.column{
 		width: 100%;
