@@ -1,12 +1,14 @@
 
-body{
+body {
 	
 	font-family:Helvetica Neue, Helvetica, Arial, San-serif;
 	margin: 0px;
 	padding: 0px;	
+	
 }
 
-header{
+
+header {
 	
 	height:400px;
 	background-image:url("kaffelogo.jpg");
@@ -17,7 +19,8 @@ header{
     
 }
 
-header a{
+
+header a {
 	
 	text-decoration: none;
 	margin-top: 100px;
@@ -28,9 +31,10 @@ header a{
 	top:70px;
 	
 }
+
 /* Navigation lenk */
 
-nav{
+nav {
 	
 	margin:0px;
 	height:50px;
@@ -40,33 +44,37 @@ nav{
 }
 
 
-	nav li{
+	nav li {
 		
 		display:inline;
-		margin-right:20px; 	
+		margin-right:20px; 
+		
 	}
 	
-	nav ul{
+	nav ul {
 		
 		List-style-type:none;
 		margin:0px;
 		padding:0px;
-	}	
+			
+	}
+
 /* aside bar begynner*/
 
-aside ul{
+aside ul {
 	
 	list-style-type:none;
 	
 }
-aside li{
+
+aside li {
 	
 	margin:30px;
 		
 }
 
 
- div _section{
+ div _section {
 	
 	background-color:white;
 	max-width:500px;
@@ -79,37 +87,41 @@ aside li{
 /* Sidebar */
 
 .fa-solid {
+	
 	color: black;
 	
 }
 
 .lister:link, .lister:visited, .listerhover, .lister:active {
-	text-decoration: none;
-	color: rgb(46, 31, 9);
-    font-size: 20px;
-	margin-top: 10px;
+	text-decoration: none; 
+	color: rgb(46, 31, 9); 
+	font-size: 20px; 
+	margin-top: 10px; 
+	
 }
-
-
-/* to kolonner som flyter ved siden av hverandre */ 
+	
+	
+/* To kolonner som flyter ved siden av hverandre */ 
 
 .column {
-
+	
 	float: left; 
 	padding: 70px; 
-
+	
 }
 
 .left {
-
+	
 	width: 45%; 
 
 }
 
 .right {
-
+	
 	width: 55%; 
+	
 }
+
 
 /* Blir kvitt flyt etter kolonner */ 
 
@@ -121,20 +133,16 @@ aside li{
 
 }
 
+
 /* Responsive layout */ 
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 600px) {
 	.column{
 		width: 100%;
+		
 	}
-
 }
 
-
-}
-
-/* Tittel <<Vår meny >> */ 
 
 /* Tittel <<Vår meny >> */ 
 
@@ -146,42 +154,50 @@ aside li{
 }
 
 .tittelSeksjon h1 {
-
-	font-size: 50px;
-    color:  rgb(30, 102, 11);
-    border: 2px solid green;
-    border-color: rgb(48, 24, 4);
+	
+	font-size: 50px; 
+	color: rgb(30, 102, 11); 
+	border-color: rgb(48, 24, 4); 
 	margin: 50px;
-    width: 900px;
-    padding: 40px;
-    border-radius: 30px;
-
-  
-
+	width: 900px; 
+	padding: 40px; 
+	border-radius: 30px; 
+	
 }
+	
 
 .retterType {
+	
     color: rgb(46, 31, 9);
     font-size: 22px;
     margin-left: 50px;
+	
 }
+
+
 .enRetter{
 
     color: rgb(30, 102, 11);
     font-size: 20px;
+	
 }
+
 
 .enRetter h3{
 	
 	padding-left: 0px;
+	
 }
+
+
 .matBeskrivelse{
     color: rgb(0, 0, 0);
     font-size: 20px;
 
 }
 
-.pris{
+
+.pris {
 	
 	float: right;
 	padding-right: 60px;
@@ -201,6 +217,7 @@ aside li{
 
 }
 
+
 /* Ikoner */
 
 .fa-solid {
@@ -212,7 +229,9 @@ aside li{
 
 /* Her starter styling av table */
 
+
 th, td {
+	
   padding: 55px;
   text-align: left; 
   background-color:rgb(245, 243,234);
@@ -221,15 +240,18 @@ th, td {
   padding: 15px;
   width: 50%;
   margin: 50px;
+	
 }
 
-th{
+
+th {
 	text-align:center;
 }
 
+
 /* footer delen starter her ifra */
 
-footer{
+footer {
 	
 	color:white;
 	background-color:rgba(6,2,3,255);
@@ -237,7 +259,7 @@ footer{
 	
 }
 
-footer a{
+footer a {
 	
 	text-decoration:underline;
 	color:white;
@@ -245,7 +267,7 @@ footer a{
 	
   /* Styler adresse delen */
  
-	address{
+	address {
 		
 		font-style: normal;
 		padding-left: 15px;
@@ -257,12 +279,12 @@ footer a{
   
   /*  Styler kontakt informajon */
   
-	h3{
+	h3 {
 		padding-left: 15px;
 		padding-top: 20px;
 	}
   
-	#contact{
+	#contact {
 		
 		line-height: 1.6;
 		text-align: left;
@@ -282,7 +304,8 @@ footer a{
 	
  /* Styler åpningstider og setter den til høyre side av footer*/
  
-	#tid{
+	#tid {
+		
 		text-align:left;
 		float: right;
 		margin-top: -100px;
